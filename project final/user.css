@@ -1,0 +1,44 @@
+<style type="text/css">
+
+h1{
+
+  font-family:times,serif;
+}
+table.one {
+margin-bottom: 10px;
+border-collapse:collapse;	}
+button {
+    background-color: #4CAF50;
+    color: black;
+    cursor: pointer;
+    width: 80%;
+}
+
+
+td {							/* removed the border from the table data rows  */
+text-align: center;
+width: 100px;
+padding: 5px;
+font-family:sans-serif;
+font-size:15px;
+	}
+
+th {							  /* removed the border from the table heading row  */
+text-align: center;
+padding: 10px;
+background-color: #4da6ff;	     /* added a red background color to the heading cells  */
+color: black;
+font-family: monospace;
+font-size: 17px;	}			      /* added a white font color to the heading text */
+
+tr {
+height: 10px;	}
+
+
+table tr:nth-child(even) {		      /* added all even rows a #eee color  */
+       background-color: #ccc;		}
+
+table tr:nth-child(odd) {		     /* added all odd rows a #fff color  */
+background-color:#fff;		}
+
+</style>

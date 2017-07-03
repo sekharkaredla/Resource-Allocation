@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app
+ PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+ <servlet>
+  <servlet-name>Login</servlet-name>
+  <servlet-class>Login_servO</servlet-class>
+ </servlet>
+ <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/loginserv</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+  <servlet-name>Admin</servlet-name>
+  <servlet-class>Admin_serv</servlet-class>
+ </servlet>
+ <servlet-mapping>
+        <servlet-name>Admin</servlet-name>
+        <url-pattern>/adminserv</url-pattern>
+ </servlet-mapping>
+<servlet>
+  <servlet-name>User</servlet-name>
+  <servlet-class>User_serv</servlet-class>
+ </servlet>
+ <servlet-mapping>
+        <servlet-name>User</servlet-name>
+        <url-pattern>/userserv</url-pattern>
+ </servlet-mapping>
+<servlet>
+  <servlet-name>Allocate</servlet-name>
+  <servlet-class>Allocate_serv</servlet-class>
+ </servlet>
+ <servlet-mapping>
+        <servlet-name>Allocate</servlet-name>
+        <url-pattern>/allocate_page</url-pattern>
+ </servlet-mapping>
+ <servlet>
+   <servlet-name>Request1</servlet-name>
+   <servlet-class>Request1_serv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+         <servlet-name>Request1</servlet-name>
+         <url-pattern>/request1_page</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Requestwarn</servlet-name>
+    <servlet-class>Reqwarn_serv</servlet-class>
+   </servlet>
+   <servlet-mapping>
+          <servlet-name>Requestwarn</servlet-name>
+          <url-pattern>/reqwarn</url-pattern>
+   </servlet-mapping>
+<servlet>
+  <servlet-name>Request</servlet-name>
+  <servlet-class>Request_serv</servlet-class>
+ </servlet>
+ <servlet-mapping>
+        <servlet-name>Request</servlet-name>
+        <url-pattern>/request_page</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+  <servlet-name>Logout</servlet-name>
+  <servlet-class>Logout_serv</servlet-class>
+ </servlet>
+ <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/logoutserv</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+   <servlet-name>Register</servlet-name>
+   <servlet-class>Reg_serv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+         <servlet-name>Register</servlet-name>
+         <url-pattern>/registerserv</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Reject</servlet-name>
+    <servlet-class>Reject_serv</servlet-class>
+   </servlet>
+   <servlet-mapping>
+          <servlet-name>Reject</servlet-name>
+          <url-pattern>/reject_serv</url-pattern>
+   </servlet-mapping>
+
+</web-app>
